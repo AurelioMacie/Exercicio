@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+section#conteudo-view{
+    position: absolute;
+    padding: 20px;
+    /* 
+        Float e posicao do right vai permitir deixar o que deseja num lado
+    */
+    float: left;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #23337f;
+}
+
+section#conteudo-view h1{
+    color: white;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+section#conteudo-view h3,
+section#conteudo-view form p{
+    color: black;
+    float: left;
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+section#conteudo-view form,
+section#conteudo-view form label {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section#conteudo-view form{
+    margin-top: 45px;
+}
+
+section#conteudo-view form p{
+    font-size: 1.25em;
+}
+
+section#conteudo-view form label input{
+    float: left;
+    width: 90%;
+    height: 35px;
+    border-radius: 15px;
+    padding: 0 20px;
+    border: 2px solid #52ca9b;
+    color: #959595;
+}
+
+section#conteudo-view form input[type="submit"]{
+    background: #00ff9c;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    float: right;
+    color: #eee9e9;
+    font-size: 20px;
+}
+
+div.background{
+    position: absolute;
+    right: 0;
+    width: calc(100% - 300px);
+    /* background-image: url(../assets/images/fundo-login.jpeg.webp); */
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+
+#principal ul li{
+    float: left;
+    width: 100%;
+}
+
+#principal ul li a{
+    float: left;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #23337f;
+}
+
+#principal ul li a i{
+    float: left;
+    height: 80px;
+    width: 80px;
+    color: inherit;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+#principal ul li a h3{
+    float: left;
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+}
+
+#principal ul li a:hover h3{
+    color: blueviolet;
+}
+
+body{
+    background: #e9e9e9;
+}
+    
+#view-conteudo{
+        position:fixed;
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 20px 240px;
+        z-index: 1;
+    }
+
+form.form-padrao label{
+    float: left;
+    width: 100%;
+}
+
+form.form-padrao label{
+    float: left;
+    width: 34%;
+    height: 50px;
+    padding: 2px 15px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form.form-padrao label:nth-last-of-type(odd){
+    margin-left: 2%;
+}
+
+form.form-padrao label span{
+    float: left;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c7c7c7;
+    padding-bottom: 5px;
+}
+
+form.form-padrao label.submit{
+    background: #0ad181;
+    border-color: #c7c7c7;
+}
+
+form.form-padrao label.submit input{
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding-left: 150px;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    background: none;
+
+}
+
+.dafault-table{
+    float: left;
+    width: 76%;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid lightblue;
+    color: black;
+}
+
+.dafault-table thead{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.dafault-table thead tr{
+    height: 40px;
+}
+
+.dafault-table tbody tr{
+    height: 20px;
+}
+
+.remover{
+    color: red;
+}
+
+#principal{
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid #e9e9e9;
+    z-index: 5;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    background: #fff;
+}
+
+#principal ul{
+    float: left;
+    width: 100%;
+}

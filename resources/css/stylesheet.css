@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+section#conteudo-view{
+position: absolute;
+right: 0;
+float: right;
+width: 300px;
+height: 100%;
+background: greenyellow;
+/* background-image: url(../css/background-login.jpg);
+background-repeat: no-repeat;
+background-size: auto; */
+}
+
